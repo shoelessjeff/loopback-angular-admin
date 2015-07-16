@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongodb": {
+    "url": "mongodb://E5t_m0ng0U5eR:L7/3Zn{Jbz_`b*bn@ds047632.mongolab.com:47632/heroku_prhs1lnf",
+    "password": "sho3l3ss",
+    "name": "mongodb",
+    "defaultForType": "mongodb",
+    "connector": "mongodb",
+    "user": "jschuler"
   }
 }

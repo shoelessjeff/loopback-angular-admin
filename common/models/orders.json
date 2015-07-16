@@ -1,0 +1,78 @@
+{
+  "name": "orders",
+  "plural": "orders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "orderType": {
+      "type": "string"
+    },
+    "orderShipDate": {
+      "type": "date"
+    },
+    "originID": {
+      "type": "string"
+    },
+    "originName": {
+      "type": "string"
+    },
+    "originStreetAddress": {
+      "type": "string"
+    },
+    "originCity": {
+      "type": "string"
+    },
+    "originState": {
+      "type": "string"
+    },
+    "originZipcode": {
+      "type": "string"
+    },
+    "destinationID": {
+      "type": "string"
+    },
+    "destinationName": {
+      "type": "string"
+    },
+    "destinationStreetAddress": {
+      "type": "string"
+    },
+    "destinationCity": {
+      "type": "string"
+    },
+    "destinationState": {
+      "type": "string"
+    },
+    "destinationZipcode": {
+      "type": "string"
+    },
+    "routeID": {
+      "type": "string"
+    },
+    "orderStatus": {
+      "type": "string"
+    },
+    "routeSequence": {
+      "type": "number"
+    },
+    "routePcmilerSequence": {
+      "type": "number"
+    },
+    "routeStatus": {
+      "type": "string"
+    },
+    "items": {
+      "type": [
+        "object"
+      ]
+    },
+    "orderID": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
